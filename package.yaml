@@ -1,0 +1,6 @@
+components:
+- mfe-a: "*"
+- service-b: "*" 
+
+dependencies:
+- shared-app/service-s: "~0.0.1"
