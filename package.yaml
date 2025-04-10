@@ -1,4 +1,4 @@
-components:
+services:
 - mfe-a: "*"
 - service-b: "*" 
 
@@ -10,3 +10,8 @@ links:
   target: service-b
 - source: service-b
   target: shared-app/service-s
+
+# semver guide
+# * means always take the latest no matter what
+# ~ means always take the latest patch or minor version
+# ^ means always take the latest patch
